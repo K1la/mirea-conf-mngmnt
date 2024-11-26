@@ -1,0 +1,15 @@
+digraph dependencies {
+  "jmh-generator-annprocess";
+  "hamcrest";
+  "org.apache.commons:commons-lang3";
+  "junit-pioneer";
+  "jmh-core";
+  "easymock";
+  "jsr305";
+  "org.apache.commons:commons-lang3" -> "junit-pioneer";
+  "org.apache.commons:commons-lang3" -> "jmh-generator-annprocess";
+  "org.apache.commons:commons-lang3" -> "hamcrest";
+  "org.apache.commons:commons-lang3" -> "easymock";
+  "org.apache.commons:commons-lang3" -> "jsr305";
+  "org.apache.commons:commons-lang3" -> "jmh-core";
+}
