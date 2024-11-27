@@ -33,7 +33,7 @@ class ConfigTranslator:
                         if right_val == 0:
                             raise ValueError("Division by zero")
                         return left_val / right_val
-            return expr  # Return unchanged if not an expression
+            return expr
 
         def process_dict(d, indent):
             """Recursively processes the dictionary to translate into config format."""
