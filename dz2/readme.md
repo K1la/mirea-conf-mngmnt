@@ -1,11 +1,11 @@
-python3 graph.py -v /opt/homebrew/bin/dot -p org.apache.commons:commons-lang3 -o graph.png -r /Users/vardges/.m2/repository
+python3 graph.py -v /opt/homebrew/bin/dot -p org.apache.commons:commons-lang3 -o graph.png -r /Users/<имя_пользователя>/.m2/repository
 Аргументы команды:
 
 python3 graph.py — запуск скрипта graph.py на Python.
 -v /opt/homebrew/bin/dot — путь к программе для визуализации графов. В данном случае используется Graphviz, установленный через Homebrew (менеджер пакетов для macOS). Программа dot отвечает за рендеринг графов в формате PNG.
 -p org.apache.commons:commons-lang3 — пакет Maven, для которого строится граф зависимостей. Формат: groupId:artifactId.
 -o graph.png — путь к выходному файлу (изображению графа в формате PNG).
--r /Users/vardges/.m2/repository — путь к локальному Maven-репозиторию, в котором находятся загруженные артефакты и их POM-файлы.
+-r /Users/<имя_пользователя>/.m2/repository — путь к локальному Maven-репозиторию, в котором находятся загруженные артефакты и их POM-файлы.
 
 
 Как найти эквиваленты для Windows
